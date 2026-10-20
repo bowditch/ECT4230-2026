@@ -10274,7 +10274,14 @@ MonoBehaviour:
   <AudioClipOnStart>k__BackingField: {fileID: 8300000, guid: a200ceb3276a64815ba89e6db4488604, type: 3}
   <AudioClipOnEnd>k__BackingField: {fileID: 0}
   featureUsage: 0
-  doorPivot: {fileID: 0}
+  doorPivot: {fileID: 1683808230}
+  maxAngle: 90
+  doorSpeed: 20
+  reverseAngleDirection: 0
+  doorOpen: 0
+  MakeKinematicOnOpen: 0
+  socketInteractor: {fileID: 816870394}
+  simpleInteractable: {fileID: 0}
 --- !u!1 &1685921082
 GameObject:
   m_ObjectHideFlags: 0

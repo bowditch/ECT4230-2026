@@ -43,7 +43,6 @@ public class DoorFeatures : CoreFeatures
         socketInteractor?.selectEntered.AddListener((s) =>
         {
             OpenDoor();
-            PlayOnStart();
         });
 
         socketInteractor?.selectExited.AddListener((s) =>
@@ -56,9 +55,6 @@ public class DoorFeatures : CoreFeatures
         {
             OpenDoor();
         });
-
-        //REMOVE THIS - TESTING ONLY
-        OpenDoor();
     }
     public void OpenDoor()
     {

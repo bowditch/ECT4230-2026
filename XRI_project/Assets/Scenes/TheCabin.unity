@@ -514,6 +514,7 @@ GameObject:
   - component: {fileID: 93198086}
   - component: {fileID: 93198087}
   - component: {fileID: 93198088}
+  - component: {fileID: 93198092}
   m_Layer: 8
   m_Name: draw02
   m_TagString: Untagged
@@ -729,6 +730,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93198084}
   m_Mesh: {fileID: 4300008, guid: e41b6552046814b19a9905c4f669429b, type: 3}
+--- !u!114 &93198092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93198084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 213cee2419b41cb4993db09787cbb28f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PushClose
+  <AudioClipOnStart>k__BackingField: {fileID: 0}
+  <AudioClipOnEnd>k__BackingField: {fileID: 0}
+  featureUsage: 0
+  pushableObject: {fileID: 0}
+  grabbable: {fileID: 0}
+  snapDistance: 0.04
 --- !u!1 &97713132
 GameObject:
   m_ObjectHideFlags: 0
